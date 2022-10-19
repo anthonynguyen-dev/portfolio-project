@@ -2,10 +2,45 @@ body {
     background-color: #F5EFE6;
 }
 
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
 .header nav {
-    padding-top: 1%;
     margin-right: 20px;
-    float: right;
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 20px;
+    width: 35%;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+
+.nav-item a{
+    text-decoration: none;
+
+}
+
+@media screen and (max-width:992px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 2em;
+    }
+    .header nav {
+        margin: 0;
+    }
+
+    .header nav ul {
+        flex-direction: column;
+        text-align: left;
+    }
+    
 }
