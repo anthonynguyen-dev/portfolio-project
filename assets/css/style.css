@@ -18,15 +18,9 @@ body {
     background-image: url(https://wallpapercave.com/wp/wp3177368.png);
 }
 .header h1 {
-    display: flex;
+    display: inline;
     color: aliceblue;
-    font-size: 350%;
-}
-.header img {
-    border-radius: 50%;
-    margin-left: 5%;
-    border-style: solid;
-
+    font-size: 150%;
 }
 
 .header nav {
@@ -44,6 +38,7 @@ body {
     padding: 0;
     width: 50%;
     height: 200%;
+    padding-left: 35%;
     
 }
 
@@ -54,13 +49,22 @@ body {
 
 .header-nav a:hover {
     color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px orange;
+  text-shadow: 0 5px 15px orange;
 }
 
 h2 {
     text-align: center;
     font-family: fantasy, copperplate;
     font-size: 225%;
+    color: #EDEDED;
+}
+.about-me {
+    font-family: fantasy, copperplate;
+    color: #000000;
+    position: relative;
+}
+.about-me p{
+    padding-left: 10%;
 }
 
 .project-list {
@@ -70,16 +74,14 @@ h2 {
 }
 .project-main {
     justify-content: center;
-    margin-left: 35%;
+    border-style: solid none solid none;
+
     
 }
 
 .project-main img {
     height: 5%;
     width: 45%;
-    border: 40%;
-    border-style: solid;
-    border-color: black;
     display: inline-block;
     justify-content: center;
 
@@ -89,25 +91,49 @@ h2 {
   box-shadow: 0 5px 15px orange;
     
 }
+.project-main p {
+    position: relative; top: 35%; right: 3%;
+    float: right;
+    
+}
+.project-main h3 {
+padding-left: 13%;
+
+}
 .project-sub {
     display: inline-block;
     align-items: center;
     border: 10%;
-    border-style: solid;
+    border-style: none solid solid solid;
     justify-content: space-evenly;
-    margin-left: 10%;
+    margin-left: 11%;
+    font-family: fantasy, copperplate;
+    font-size: larger;
+    background-color: #323232;
 }
 
 .project-sub:hover {
   box-shadow: 0 5px 15px orange;
 }
 
+
 .contact {
     list-style: none;
+    border: #000000;
+    border-style: solid none none none;
+    text-align: center;
+    font-family: fantasy, copperplate;
+}
+.contact a {
+    color:#EDEDED
+}
+.contact a:hover {
+ text-shadow: 0 5px 15px orange;
 }
 
 .footer {
     text-align: center;
+    font-family: fantasy, copperplate;
 }
 @media screen and (max-width:992px) {
     .header {
