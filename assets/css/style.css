@@ -149,5 +149,10 @@ padding-left: 13%;
         flex-direction: column;
         text-align: left;
     }
+
+    .project-main p {
+        display: flex;
+        text-size-adjust: auto;
+    }
     
 }
