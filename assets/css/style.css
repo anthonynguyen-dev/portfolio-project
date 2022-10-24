@@ -116,6 +116,11 @@ padding-left: 13%;
   box-shadow: 0 5px 15px orange;
 }
 
+.project-sub img {
+    width:  360px;
+    height: 200px;
+}
+
 
 .contact {
     list-style: none;
@@ -153,6 +158,12 @@ padding-left: 13%;
     .project-main p {
         display: flex;
         text-size-adjust: auto;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    .contact {
+        font-size: 10px;
     }
     
 }
