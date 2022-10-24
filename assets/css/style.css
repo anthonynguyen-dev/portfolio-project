@@ -83,7 +83,7 @@ h2 {
 }
 .project-main {
     justify-content: center;
-    border-style: solid none solid none;
+    border-style: solid none none none;
 
     
 }
@@ -93,18 +93,30 @@ h2 {
     width: 45%;
     display: inline-block;
     justify-content: center;
-
 }
+
 .project-main img:hover {
     color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px orange;
     
 }
+
 .project-main p {
     position: relative; top: 35%; right: 3%;
     float: right;
+}
+
+.project-main a {
+    font-family: fantasy, copperplate;
+    color: #000000;
+}
+
+.project-main a:hover {
+    color: rgba(255, 255, 255, 1);
+  text-shadow: 0 5px 15px orange;
     
 }
+
 .project-main h3 {
 padding-left: 13%;
 
@@ -138,9 +150,11 @@ padding-left: 13%;
     text-align: center;
     font-family: fantasy, copperplate;
 }
+
 .contact a {
     color:#EDEDED
 }
+
 .contact a:hover {
  text-shadow: 0 5px 15px orange;
 }
@@ -149,6 +163,7 @@ padding-left: 13%;
     text-align: center;
     font-family: fantasy, copperplate;
 }
+
 @media screen and (max-width:992px) {
     .header {
         flex-direction: column;
