@@ -7,5 +7,7 @@ HTML and CSS but in the soon future I will be adding more to further showcase my
 
 Email: nguyen.dev@protonmail.com
 [Project Link](https://github.com/anthonynguyen-dev/portfolio-project)
+
 [Live Site](https://anthonynguyen-dev.github.io/portfolio-project/)
-![site image]()
+
+![site image](<https://github.com/anthonynguyen-dev/portfolio-project/blob/main/assets/images/Screenshot%20(8).png?raw=true>)
