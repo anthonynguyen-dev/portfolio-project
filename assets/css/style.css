@@ -63,6 +63,15 @@ h2 {
     color: #000000;
     position: relative;
 }
+
+.about-me img {
+    width:  250px;
+    height: 200px;
+    margin-left: 43%;
+    border: double;
+    border-width: 10px;
+}
+
 .about-me p{
     padding-left: 10%;
 }

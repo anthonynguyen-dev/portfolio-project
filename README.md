@@ -6,6 +6,6 @@ HTML and CSS but in the soon future I will be adding more to further showcase my
 ## Contact me!
 
 Email: nguyen.dev@protonmail.com
-[Project Link]()
-[Live Site]()
+[Project Link](https://github.com/anthonynguyen-dev/portfolio-project)
+[Live Site](https://anthonynguyen-dev.github.io/portfolio-project/)
 ![site image]()
